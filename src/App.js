@@ -6,8 +6,11 @@ import './assets/css/main.css';
 import './assets/css/tiny-slider.css';
 import PetsList from './Components/PetsList';
 import petsData from './petsData';
-
+import { useState } from 'react';
 function App() {
+  
+
+
   return (
     <div className="App">
       <PetsList pets={petsData} />
